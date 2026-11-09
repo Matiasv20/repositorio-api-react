@@ -1,0 +1,31 @@
+{
+  "name": "rest_api_express",
+  "version": "1.0.0",
+  "description": "\"Rest api con express y typescript\"",
+  "license": "ISC",
+  "author": "Matias Villalba}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec tsx src/index.ts",
+    "kill": "npx kill-port 4000"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "pg": "^8.23.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8",
+    "sequelize-typescript": "^2.1.6"
+  }
+}
